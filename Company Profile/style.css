@@ -1,0 +1,273 @@
+*{
+    margin:0;
+    font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    height: 25px;
+    width: 132px;
+    background-image: url("deloitte_logo.png");
+    background-size:cover;
+    
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    background-color: black;
+    /* margin-bottom: 5px; */
+    border-bottom:5px solid green;    
+    padding-bottom: 15px;
+}
+
+
+.nav-sic{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.nav-services{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.nav-industries{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.nav-career{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.nav-search{
+    display: flex;
+    border: box;
+}
+
+.nav-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav-search input {
+    padding: 8px 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 250px;
+    background-color: #444; /* Dark grey background color */
+    color: #ddd; /* Lighter text color */
+    outline: none; /* Remove default outline */
+}
+
+
+
+.nav-search input::placeholder {
+    color: #fff; /* White color for the placeholder text */
+}
+.nav-search .search-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.nav-search .search-icon i {
+    font-size: 20px;
+    color: #fff; /* White color for the icon */
+}
+
+/* Style the input on focus */
+.nav-search input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style the icon on hover */
+.nav-search .search-icon:hover i {
+    color: #007bff;
+}
+
+.world{
+    display: flex;
+}
+
+.MAIN{
+    background-color: #e8eae9;
+}
+.hero-part1{
+    background-image: url("deloitte_image1.jpeg");
+    background-size: auto;
+    height: 300px;
+    color: white;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2em;
+}
+h2{
+    font-weight: 300;
+}
+
+.but{
+    height: 50px;
+    width: 375px;
+    background-color: green;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.but:hover{
+    color: #000000;
+    background-color: rgb(4, 170, 4);   
+}
+
+/* BOXES */
+.articles{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e8eae9;
+}
+.box{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    margin-top: 15px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}
+
+.boximage{
+    height: 110px;
+}
+
+.box-content{
+    margin-left:15px;
+    margin-right: 15px;
+}
+
+h5{
+    color: #707377;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bigbox{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.bigboximage{
+    height: 280px;
+}
+
+.two{
+    display: flex;
+    justify-content: space-evenly;
+    height: 270px;
+}
+
+.minibox{
+    /* height: 250px; */
+    width: 28%;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.minibox1{
+    border-top: 6px solid #000000;
+}
+.minibox2{
+    border-top: 6px solid #007bff;
+}
+
+.first-bar{
+    background-color: #2b2b2b;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0%;
+    padding-left: 5%;
+}
+
+.second-bar{
+    background-color: #bbbcbc;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+.secbarele{
+    margin-right: 30px;
+}
+
+#lastlinks{
+    color: #d0d0ce;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 5%;
+
+}
+
+.third-bar{
+    background-color: #e8eae9;
+    height: 350px;
+    font-size: 12px;
+    display: flex;
+    /* align-items: center; */
+}
+.one-box{
+    /* height: 100px; */
+    margin-left: 10%;
+    padding-right: 5%;
+    padding-top: 30px;
+    border-right: 1px solid #000000;
+}
+ul {
+    list-style-type: none; 
+    margin: 8px 0px 10px;
+}
+
+li {
+    margin-bottom: 15px; 
+}
+
+.lastpart {
+    background-color: white ;
+    color: black;
+    margin-left: 10%;
+    margin-right: 20%;
+    font-size: 12px;
+}
