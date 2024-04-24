@@ -55,11 +55,15 @@
     margin-right: 50px;
 }
 
-.nav-search{
+.nav-right{
     display: flex;
-    border: box;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.nr{
+    margin-right: 30px;
+}
 .nav-search {
     position: relative;
     display: flex;
@@ -76,8 +80,6 @@
     color: #ddd; /* Lighter text color */
     outline: none; /* Remove default outline */
 }
-
-
 
 .nav-search input::placeholder {
     color: #fff; /* White color for the placeholder text */
@@ -113,6 +115,8 @@
 }
 .hero-part1{
     background-image: url("deloitte_image1.jpeg");
+    background-position: center;
+    display: block;
     background-size: auto;
     height: 300px;
     color: white;
@@ -183,7 +187,7 @@ h5{
 }
 
 .bigboximage{
-    height: 280px;
+    height: 300px;
 }
 
 .two{
@@ -242,8 +246,8 @@ h5{
 }
 
 .third-bar{
-    background-color: #e8eae9;
-    height: 350px;
+    background-color: #f5f5f4;
+    height: 450px;
     font-size: 12px;
     display: flex;
     /* align-items: center; */
@@ -252,18 +256,46 @@ h5{
     /* height: 100px; */
     margin-left: 10%;
     padding-right: 5%;
-    padding-top: 30px;
-    border-right: 1px solid #000000;
+    padding-top: 30px;    
 }
 ul {
     list-style-type: none; 
-    margin: 8px 0px 10px;
+    margin : 8px 0px 10px;
 }
 
 li {
     margin-bottom: 15px; 
 }
 
+.social-media{
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+.onepointfive-box{
+    /* margin-left: 5%; */
+    /* padding-right: 5%; */
+    padding-top: 30px;
+    border-right: 0.2px solid #000000;
+}
+
+.two-box{
+    margin-left: 5%;
+    /* padding-right: 5%; */
+    padding-top: 30px;
+}
+
+.three-box{
+    margin-left: 5%;
+    /* padding-right: 5%; */
+    padding-top: 30px;
+}
+
+.four-box{
+    margin-left: 5%;
+    /* padding-right: 5%; */
+    padding-top: 30px;
+}
 .lastpart {
     background-color: white ;
     color: black;
